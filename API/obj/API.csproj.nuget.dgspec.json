@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj": {}
+    "c:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj": {
+    "c:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Tylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\Tylor\\source\\repos\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,8 +25,6 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
